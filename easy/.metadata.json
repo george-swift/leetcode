@@ -1,0 +1,11 @@
+{
+    "0001": {
+        "difficulty": "easy",
+        "last_updated": "2025-03-22",
+        "tags": [
+            "array",
+            "hashtable"
+        ],
+        "title": "Two Sum"
+    }
+}
