@@ -31,7 +31,7 @@ class Solution:
             reversed_half = reversed_half * 10 + x % 10
             x //= 10
 
-        # Compares x == reversed_half for even-length or x == reversed_half // 10 (middle digit ignored) for odd-length: 
+        # Compares x to reversed_half for even-length or x to floored quotient of reversed_half and 10 for odd-length (to ignore the middle digit): 
         return x == reversed_half or x == reversed_half // 10
 
 
@@ -40,6 +40,6 @@ if __name__ == "__main__":
     solution = Solution()
 
     # Example tests (modify as needed)
-    print(solution.solve(121))  # Expected: True
+    print(solution.solve(121))   # Expected: True
     print(solution.solve(-121))  # Expected: False
-    print(solution.solve(10))  # Expected: False
+    print(solution.solve(10))    # Expected: False
