@@ -38,10 +38,11 @@ Difficulty: {difficulty.title()}
 Tags: {', '.join(tags) if tags else 'N/A'}
 
 Problem Description:
-    [Add a brief summary or copy-paste the problem prompt]
-"""
+    [Add a brief summary or copy-paste the problem description]
 
-from typing import List, Optional
+Constraints:
+    [Add or copy-paste constraints]
+"""
 
 class Solution:
     def solve(self, *args) -> any:
